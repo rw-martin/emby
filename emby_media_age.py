@@ -48,7 +48,7 @@ def format_elapsed_time(date_created, current_date):
     months = f"{delta.months:02}mths"
     days = f"{delta.days:02}days"
     age = f"{years} {months} {days}"
-    if (delta.years*12)+delta.months >= config.threshold:
+    if (delta.years*12)+delta.months >= config.ageThreshold:
         return f"{Colors.FAIL}{age}{Colors.ENDC}"
     else:
         return age
