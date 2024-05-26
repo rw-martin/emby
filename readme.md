@@ -20,7 +20,7 @@ The project requires the following Python packages:
 - `prettytable` v3.10.0
 - `python-dateutil` v2.9.0.post0
 
-You will need a regular Python module named config.py that contains the following where you need to replace the API KEY and SERVER w/ values relevant to your setup:
-- embyKey='`<EMBY SERVER API KEY>`'
-- embyHost='`https://<EMBY SERVER>/emby`'
+You will need a regular Python module named config.py that contains the following where you need to replace the EMBY_API_KEY and EMBY_SERVER w/ values relevant to your setup:
+- embyKey='`<EMBY_API_KEY>`'
+- embyHost='`https://<EMBY_SERVER>/emby`'
 - threshold = 18  # number of months
