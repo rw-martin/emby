@@ -16,11 +16,11 @@ This project leverages the Emby server API to analyze stored content to determin
 
 The project requires the following Python packages:
 
-- `embyapi` # v4.1.1.0a0
-- `prettytable` # v3.10.0
-- `python-dateutil` # v2.9.0.post0
+- `embyapi` v4.1.1.0a0
+- `prettytable` v3.10.0
+- `python-dateutil` v2.9.0.post0
 
 You will need a regular Python module named config.py that contains the following where you need to replace the API KEY and SERVER w/ values relevant to your setup:
-- embyKey='<EMBY SERVER API KEY>'
-- embyHost='https://<EMBY SERVER>/emby'
+- embyKey='`<EMBY SERVER API KEY>`'
+- embyHost='`https://<EMBY SERVER>/emby`'
 - threshold = 18  # number of months
