@@ -1,7 +1,7 @@
 # Emby Media Management
 This project provides a script for analyzing media content stored in Emby, a media server solution. It includes functionality to fetch user information, calculate media file sizes, and display media details with formatted output.
 
-![output](/screenshots/script-output/png "output")
+![output](/screenshots/script-output.png "output")
 
 ## Features
 
