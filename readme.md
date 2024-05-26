@@ -1,4 +1,4 @@
-# Emby Media Management
+# Emby Server Media Analysis
 This project leverages the Emby server API to analyze stored content to determine which TV episodes have not been watched since being downloaded. Anything over a defined date threshold is highlighted in RED.
 
 ![output](/screenshots/script-output.png "output")
@@ -23,4 +23,4 @@ The project requires the following Python packages:
 You will need a regular Python module named config.py that contains the following where you need to replace the EMBY_API_KEY and EMBY_SERVER w/ values relevant to your setup:
 - embyKey='`<EMBY_API_KEY>`'
 - embyHost='`https://<EMBY_SERVER>/emby`'
-- threshold = 18  # number of months
+- ageThreshold = 18
