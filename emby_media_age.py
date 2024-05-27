@@ -18,15 +18,15 @@ class Colors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-# Configure API key authorization: apikeyauth
-configuration = embyapi.Configuration()
-configuration.api_key['api_key'] = config.embyKey
-configuration.host = config.embyHost
-
 # Create an instance of the required Emby API classes
+configuration = embyapi.Configuration()
 api_client = embyapi.ApiClient(configuration)
 user_api = embyapi.UserServiceApi(api_client)
 items_api = embyapi.ItemsServiceApi(api_client)
+
+# Configure API key authorization
+configuration.api_key['api_key'] = config.embyKey
+configuration.host = config.embyHost
 
 def get_all_users():
     try:

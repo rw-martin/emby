@@ -14,7 +14,7 @@ This project leverages the Emby server API to analyze stored content to determin
 
 ### Dependencies
 
-The project requires the following Python packages:
+The project minimally requires the following Python packages:
 
 - `embyapi` v4.1.1.0a0
 - `prettytable` v3.10.0
